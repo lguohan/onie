@@ -1,0 +1,15 @@
+Add compability for bash 5
+
+diff --git a/configure.ac b/configure.ac
+index d10bf71..e2302b4 100644
+--- a/configure.ac
++++ b/configure.ac
+@@ -274,7 +274,7 @@ ACX_PROG_VERSION_REQ_STRICT([BASH_SHELL],
+     [GNU bash >= 3.1],
+     [bash],
+     [bash],
+-    ['^GNU bash, version (3\.[1-9]|4)'])
++    ['^GNU bash, version (3\.[1-9]|4|5)'])
+ 
+ # We need a awk that *is* GNU awk
+ ACX_PROG_VERSION_REQ_STRICT([AWK],
