@@ -32,3 +32,11 @@ disable-build-of-documentation.patch
 include-compatible-unifont-bdf.patch
 gcc8.patch
 gcc7.patch
+cpio-Disable-gcc9-Waddress-of-packed-member.patch
+jfs-Disable-gcc9-Waddress-of-packed-member.patch
+hfs-Fix-gcc9-error-Waddress-of-packed-member.patch
+hfsplus-Fix-gcc9-error-with-Waddress-of-packed-membe.patch
+acpi-Fix-gcc9-error-Waddress-of-packed-member.patch
+usbtest-Disable-gcc9-Waddress-of-packed-member.patch
+chainloader-Fix-gcc9-error-Waddress-of-packed-member.patch
+efi-Fix-gcc9-error-Waddress-of-packed-member.patch
