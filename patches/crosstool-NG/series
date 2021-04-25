@@ -3,3 +3,4 @@ allow-patching-custom-kernel-tarballs.patch
 allow-obsolete-isl-0-12-2-with-custom-gcc-version.patch
 ubsan-fix-check-empty-string.patch
 add-compability-for-bash-5.patch
+m4-1.4.18-fix-glibc-change-compile-issue.patch
